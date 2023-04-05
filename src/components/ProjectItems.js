@@ -19,6 +19,14 @@ const ProjectItem = (props) => {
               <li>{props.tech4}</li>
               <li>{props.tech5}</li>
             </ul>
+            <ul>
+              <li>{props.tech6}</li>
+              <li>{props.tech7}</li>
+              <li>{props.tech8}</li>
+              <li>{props.tech9}</li>
+              <li>{props.tech10}</li>
+              <li>{props.tech11}</li>
+            </ul>
           </div>
           <img src={props.image} alt="" />
         </article>

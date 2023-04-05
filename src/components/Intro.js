@@ -5,20 +5,19 @@ const Intro = () => {
         Hi, my name is <span> Abdel Aziz KAMO MEGNA.</span>
       </p>
 
-      <h2>
-        I develop machine learning models as well as the front end of websites.
-      </h2>
+      <h2>I am a software developer with 4 years of experience.</h2>
 
       <p>
-        I am a developer specializing in PYTHON, JAVASCRIPT, HTML5 and CSS3.
+        My area of specialization lies in developing with a range of Javascript
+        frameworks, including ReactJS, VueJS, AngularJS, and Ionic
       </p>
 
       <p>
-        Currently, I'm working at
-        <a href="/" target="_blank">
-          IWE
-        </a>
-        as a react front end developer.
+        Currently, I'm working at &nbsp;
+        <a href="https://terziondx.com/" target="_blank">
+          TerzionDX
+        </a>{" "}
+        &nbsp; as a Software Engineer.
       </p>
     </div>
   );

@@ -1,6 +1,7 @@
 import ProjectItem from "./ProjectItems";
-import selteskiloimg from "../assets/img/sellteskilos.PNG";
-import lung from "../assets/img/lung.JPG";
+import qdisco from "../assets/img/1.jpg";
+import Ischolars from "../assets/img/2.jpg";
+import iwe from "../assets/img/3.jpg";
 
 const Projects = (props) => {
   return (
@@ -8,27 +9,72 @@ const Projects = (props) => {
       <h2>Projects I am proud of</h2>
       <ProjectItem
         title2="Latest Project"
-        title3="Sell tes Kilos"
-        description="Sell Tes kilos is an application that connects two people in order to offer or to ask some services. Those two people are: a traveler going from one country or city to another, and a customer who would like to send a package in a country or city. I am the initiator of the project. The main programming language in the development of this project is JavaScript. You can find below the link of the GitHub repository and the list of technologies used."
+        title3="QDisco"
+        description="Qdisco is a CRM task mining application that leverages machine learning and software development
+        technologies to analyze customer interactions and provide valuable insights to businesses. The project
+        aims to make it easier for businesses to understand their customer needs, enhance customer
+        satisfaction and retention, and ultimately drive business growth.
+        "
         link="/"
-        tech1="React 18"
-        tech2=" HTML5"
-        tech3=" CSS3"
-        tech4="Bootstrap"
-        tech5="Style component"
-        image={selteskiloimg}
+        tech1="Javascript |"
+        tech2="Vue.js |"
+        tech3="NodeJs |"
+        tech4="HTML5 | CSS3 |"
+        tech5="Bootstrap"
+        tech6="Git |"
+        tech7="GitHub |"
+        tech8=" Jira |"
+        tech9="Python |"
+        tech10="Machine learning |"
+        tech11="RethinkDB"
+        image={qdisco}
       />
+
       <ProjectItem
         style="reverse"
-        title3="Lung disease detection using deep learning"
-        description="This is my master's thesis project. In this project, I developed a system to automatically detect lung cancer, covid 19 or pneumonia potentially present in an individual lung. To build our model, I used the deep learning technique of convolutional neural networks (CNN) which is the most efficient in image processing. The prediction system applies to computed tomography (CT) images. After that, I deployed the model and created a web application using React that will allow users to upload images and get predicted results."
-        link="/"
-        tech1="React 16"
-        tech2=" HTML5"
-        tech3=" CSS3"
-        tech4="Python"
-        tech5="Keras"
-        image={lung}
+        title3="IWE"
+        description="The IWé App is a platform that allows users to book appointments at beauty salons. The app also
+        provides recommendations based on the user's experience history. The project was delivered on time
+        and within budget. The frontend was developed using the latest web technologies, making it fast,
+        responsive, and mobile-friendly. The integration with the backend APIs was seamless, ensuring a
+        smooth user experience. The impact of the project was significant. The IWé App was well-received by
+        users, and it helped them alot. The app received positive feedback from users, and it was featured in
+        several online publications.
+        "
+        link="https://xn--iw-cja.com/"
+        tech1="Typescript |"
+        tech2="Ionic | Angular"
+        tech3="NodeJs |"
+        tech4="HTML5 | CSS3 |"
+        tech5="Bootstrap"
+        tech6="Git |"
+        tech7="Bitbucket |"
+        tech8=" Jira |"
+        tech9="Aws |"
+        tech10="OAuth |"
+        tech11="MongoDB"
+        image={iwe}
+      />
+      <ProjectItem
+        title3="Iscolars"
+        description="Ischolars is a web and mobile application designed to help students prepare for their exams. It provides
+        an interactive learning experience by offering customized study plans, quizzes, flashcards, and past
+        exams. The app also enables students to track their progress and get recommendations on what to
+        study next.
+        "
+        link="https://apps.apple.com/tr/app/ischolars/id166866273"
+        tech1="Typescript |"
+        tech2="Ionic | Angular"
+        tech3="NodeJs |"
+        tech4="HTML5 | CSS3 |"
+        tech5="Bootstrap"
+        tech6="Git |"
+        tech7="Bitbucket |"
+        tech8=" Jira |"
+        tech9="Aws |"
+        tech10="OAuth |"
+        tech11="MongoDB"
+        image={Ischolars}
       />
     </div>
   );

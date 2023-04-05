@@ -70,7 +70,7 @@ const Landing = () => {
           </li>
           <li>
             <a
-              href="https://www.dropbox.com/s/l6whcp20c3rt7ed/CV%20-%20ABDEL%20AZIZ%20KAMO%20MEGNA.pdf?dl=0"
+              href="https://www.dropbox.com/s/h7td7p0l2sdhkaq/CV%20-%20Abdel%20Aziz%20Kamo.pdf?dl=0"
               target="_blank"
               className="button"
               rel="noreferrer"
